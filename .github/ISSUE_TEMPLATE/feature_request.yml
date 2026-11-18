@@ -1,0 +1,23 @@
+name: Feature request
+description: Describe a use case and the behavior that would help.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: What are you trying to do?
+      description: Describe the user problem and the affected project or SDK edition.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Desired behavior
+      description: Include a small example of the proposed workflow or API.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current approach or alternatives
+      description: Optional workarounds, constraints and compatibility considerations.

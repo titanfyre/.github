@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Choose a project and get started
+    url: https://github.com/TitanCSA/TitanCSA/blob/main/PROJECTS.en.md
+    about: Find the relevant application, SDK, driver and first-run documentation.
+  - name: SDK packages and installation commands
+    url: https://github.com/TitanCSA/sdk-packages
+    about: Package names, API guides and separate product requirements.

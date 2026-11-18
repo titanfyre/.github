@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a reproducible problem with this project.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use the affected project's repository. For suspected security vulnerabilities, follow SECURITY.md instead of posting sensitive details publicly.
+  - type: input
+    id: version
+    attributes:
+      label: Product and version
+      description: Include the release, SDK/package edition and package version where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows build, CPU architecture, runtime/toolchain and relevant device or connection. Identify an offline test, virtual fixture or physical device.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give a small example and the exact commands or actions.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: Explain what you expected and what you observed, including the exact error text if available.
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Relevant diagnostics
+      description: Optional text logs. Remove credentials, customer keys and personal information. Do not attach full kernel dumps or personal input recordings publicly.
