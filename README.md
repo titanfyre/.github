@@ -1,5 +1,10 @@
 # titanfyre project support and contribution guides
 
+> [!IMPORTANT]
+> **Request the full driver without the one-hour demo limit**
+>
+> On [Discord](https://discord.com/app), choose **Friends → Add Friend**, enter **`titancsa`** and send the project name. Mention the matching driver or edition. TitanCSA shares purchase details privately.
+
 Shared defaults for repositories without their own policy files. Individual repository policies, release prerequisites and licences take precedence.
 
 - [Get support](SUPPORT.md): report versions, reproducible steps and the observed result.
